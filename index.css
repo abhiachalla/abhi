@@ -78,7 +78,6 @@
     left: 0;
     top: 305%;
     background-color: black;
-    color: darkolivegreen;
     width: 100%;
     position: absolute;
     height: 50%;
@@ -144,8 +143,10 @@
 }
 .cserv {
     position: absolute;
+    color: white;
     top: 30%;
-    left: 30%;
+    left: 5%;
+    right: 10%;
 }
 .imacpic {
     position: absolute;
@@ -240,6 +241,10 @@
     bottom: 10%;
     left: 20%;
 
+}
+
+a {
+    color: white;
 }
 
 
