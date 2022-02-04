@@ -1,11 +1,13 @@
 .navbar {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     height: 5%;
     width: 100%;
     background-color: #5d5e5e;
     position: fixed;
-    z-index: 10000000;
+    z-index: 999999999;
+    display: flex;
+    flex-direction: row;
 }
 .about {
     left: 0;
@@ -174,6 +176,32 @@
 #quote {
 
 }
+#brand {
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+#aboutme {
+    color: white;
+    position: absolute;
+    right: 30%;
+    top: 40%;
+
+}
+#whatido {
+    color: white;
+    position: absolute;
+    right: 20%;
+    top: 40%;
+}
+#contact {
+    color: white;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
 
 /*#abhiImage {*/
 
