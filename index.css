@@ -4,6 +4,7 @@
     height: 5%;
     width: 100%;
     background-color: #5d5e5e;
+    /*background-color: #86a0a9;*/
     position: fixed;
     z-index: 999999999;
     display: flex;
@@ -20,7 +21,7 @@
     overflow: hidden;
     background-attachment: fixed;
 
-    background-image: url("img.png");
+    background-image: url("abhi_2.jpeg");
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -182,11 +183,23 @@
     left: 5%;
     top: 40%;
 }
+#brand:hover {
+    transform: scale3d(1.5,1.5,1.5);
+    transition: 2s ease-in-out;
+    cursor: pointer;
+
+}
 #aboutme {
     color: white;
     position: absolute;
     right: 30%;
     top: 40%;
+
+}
+#aboutme:hover {
+    transform: scale3d(1.5,1.5,1.5);
+    transition: 2s ease-in-out;
+    cursor: pointer;
 
 }
 #whatido {
@@ -195,11 +208,38 @@
     right: 20%;
     top: 40%;
 }
+#whatido:hover {
+    transform: scale3d(1.5,1.5,1.5);
+    transition: 2s ease-in-out;
+    cursor: pointer;
+
+}
 #contact {
     color: white;
     position: absolute;
     right: 10%;
     top: 40%;
+}
+#contact:hover {
+    transform: scale3d(1.5,1.5,1.5);
+    transition: 2s ease-in-out;
+    cursor: pointer;
+
+}
+
+#webdesc {
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+#othersites {
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+
 }
 
 
