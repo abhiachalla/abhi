@@ -68,12 +68,12 @@
     color: darksalmon;
     width: 100%;
     position: absolute;
-    height: 50%;
+    height: 100%;
 }
 
 .projects {
     left: 0;
-    top: 255%;
+    top: 305%;
     background-color: black;
     color: darkolivegreen;
     width: 100%;
@@ -83,7 +83,7 @@
 
 .contact {
     left: 0;
-    top: 305%;
+    top: 355%;
     background-color: #5d5e5e;
     color: darksalmon;
     width: 100%;
@@ -93,11 +93,39 @@
 
 .imac {
     width: 50%;
+    height: 52%;
     position: relative;
-    left: 25%;
+    left: 10%;
+    top: 15%;
 
 }
 .imac:hover {
+
+    transform: scale(1.5);
+    transition: 2s ease-in-out;
+
+}
+.ipad {
+    width: 30%;
+    height: 60%;
+    position: relative;
+    top: 15%;
+
+}
+.ipad:hover {
+
+    transform: scale(1.5);
+    transition: 2s ease-in-out;
+
+}
+.iphone {
+    width: 10%;
+    height: 35%;
+    position: relative;
+    top: 0%;
+
+}
+.iphone:hover {
 
     transform: scale(1.5);
     transition: 2s ease-in-out;
@@ -115,6 +143,32 @@
     position: absolute;
     top: 30%;
     left: 30%;
+}
+.imacpic {
+    position: absolute;
+    z-index: 99;
+    top: 27.5%;
+    left: 21.1%;
+    width: 27.5%;
+    height: 31%;
+}
+
+.ipadpic {
+    position: absolute;
+    z-index: 99;
+    top: 24%;
+    left: 58.75%;
+    width: 13.15%;
+    height: 38.5%;
+}
+
+.iphonepic {
+    position: absolute;
+    z-index: 99;
+    top: 29.75%;
+    left: 81.3%;
+    width: 8.35%;
+    height: 26%;
 }
 
 /*#abhiImage {*/
